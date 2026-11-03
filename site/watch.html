@@ -8,15 +8,26 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="wrap">
-    <header class="masthead">
-      <h1>Gear Watch</h1>
-      <p id="checked">Loading prices…</p>
-      <p class="crosslink"><a href="./">Gian’s Picks</a></p>
+    <header class="hero">
+      <div class="brand">
+        <svg class="mark" viewBox="0 0 50 44" aria-hidden="true">
+          <path class="fill" d="M2.2 19.6 13.4 5.2A4 4 0 0 1 16.6 3.6H45a3 3 0 0 1 3 3v30.8a3 3 0 0 1-3 3H16.6a4 4 0 0 1-3.2-1.6L2.2 24.4a3.9 3.9 0 0 1 0-4.8Z"/>
+          <circle class="cut" cx="15" cy="22" r="3.6"/>
+        </svg>
+        <h1>Gear Watch</h1>
+      </div>
+      <p class="tagline">Prices on the Macs and iPads I’m waiting to buy, checked every two hours.</p>
+      <p class="updated" id="checked">Loading prices…</p>
+      <nav class="family" aria-label="Gian’s sites">
+        <a href="./">Gian’s Picks</a>
+        <a href="watch.html" aria-current="page">Gear Watch</a>
+        <a href="https://gcd231983.github.io/five-bars/">Five Bars</a>
+      </nav>
     </header>
     <div id="notices"></div>
     <div id="items"></div>
@@ -78,7 +89,7 @@
     GW.load().then((data) => {
       DATA = data;
       document.getElementById('checked').textContent = data.generatedAt
-        ? `Last checked ${ago(data.generatedAt)} (${clock(data.generatedAt)} Eastern). Checks run every ${data.everyHours} hours.`
+        ? `Last checked ${ago(data.generatedAt)} (${clock(data.generatedAt)} Eastern).`
         : 'Waiting for the first check.';
 
       const down = data.sources.filter((s) => s.ok === false);

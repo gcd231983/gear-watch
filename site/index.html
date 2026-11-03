@@ -10,14 +10,25 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="wrap">
-    <header class="masthead">
-      <h1 id="title">Gian’s Picks</h1>
-      <p id="intro"></p>
+    <header class="hero">
+      <div class="brand">
+        <svg class="mark" viewBox="0 0 50 44" aria-hidden="true">
+          <path class="fill" d="M11 0h28a3 3 0 0 1 3 3v39.2a1.4 1.4 0 0 1-2.2 1.1L25 33.2 10.2 43.3A1.4 1.4 0 0 1 8 42.2V3a3 3 0 0 1 3-3Z"/>
+          <path class="cutline" d="M16.5 16.5 22.5 22.5 33.5 11"/>
+        </svg>
+        <h1 id="title">Gian’s Picks</h1>
+      </div>
+      <p class="tagline" id="intro"></p>
+      <nav class="family" aria-label="Gian’s sites">
+        <a href="./" aria-current="page">Gian’s Picks</a>
+        <a href="watch.html">Gear Watch</a>
+        <a href="https://gcd231983.github.io/five-bars/">Five Bars</a>
+      </nav>
     </header>
     <div id="notices"></div>
     <div id="picks"></div>
