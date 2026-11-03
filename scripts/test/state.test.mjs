@@ -187,3 +187,12 @@ test('near-miss log explains other models and missing prices, and skips unrelate
   assert.match(why[0].reason, /mentions Mac mini but no watched item matched/);
   assert.match(why[1].reason, /matched macbook-neo but no believable price/);
 });
+
+test('a listing counts for the right item no matter which search found it', () => {
+  const slick = { id: 'slickdeals', type: 'rss-search', dealsOnly: true };
+  const raw = [
+    { title: 'Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $779 + Free S&H', url: 'https://slickdeals.net/f/a', query: 'Mac mini M4' },
+    { title: 'iVANKY 13-in-1 M4 Mac Mini Docking Station w/ M.2 SSD Enclosure $55 + Free S&H', url: 'https://slickdeals.net/f/b', query: 'Mac mini M4' }
+  ];
+  assert.deepEqual(byItem(matchListings(raw, slick, items, cfg)), { 'mac-mini-m6': 779 });
+});

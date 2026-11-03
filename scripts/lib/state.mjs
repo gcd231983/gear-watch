@@ -26,7 +26,7 @@ const needsDealWords = (source) => source.type !== 'apple-refurb' && !source.dea
 export function explainMisses(raw, source, items, cfg, limit = 40) {
   const out = [];
   for (const r of raw) {
-    const family = items.filter((it) => hasPhrase(r.title, it.match?.all?.[0] || '') && (!r.query || r.query === it.search));
+    const family = items.filter((it) => hasPhrase(r.title, it.match?.all?.[0] || ''));
     if (!family.length) continue;
     const matched = family.filter((it) => matchesItem(r.title, it, cfg.excludeEverywhere));
     let reason = null;
@@ -46,7 +46,6 @@ export function matchListings(raw, source, items, cfg) {
   for (const r of raw) {
     if (needsDealWords(source) && !hasDealWords(r.title, cfg.dealWords)) continue;
     for (const item of items) {
-      if (r.query && r.query !== item.search) continue;
       if (!matchesItem(r.title, item, cfg.excludeEverywhere)) continue;
       const price = r.price ?? pickPrice(r.title, item.price, item.range);
       if (price == null) continue;

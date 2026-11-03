@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-03T13:54:11.902Z",
+ "checkedAt": "2026-11-03T13:56:57.286Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -208,6 +208,11 @@
   },
   {
    "source": "slickdeals",
+   "title": "Sunveza 118W USB-C MacBook Pro Wall Charger w/ 6.6' USB-C Cable $8.10",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
    "title": "Apple Smart Folio Case for iPad Mini A17 Pro (Charcoal Grey) $8 + Free Shipping",
    "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
   },
@@ -223,57 +228,7 @@
   },
   {
    "source": "slickdeals",
-   "title": "Apple Mac mini Desktop (2026): M6 Chip, 24GB RAM, 512GB SSD $1179 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $779 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
    "title": "ORICO 10-in-1 Mac mini Vertical Dock Stand w/ M.2 SSD Slot, 4K HDMI & 10Gbps USB $25",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $780 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple Mac mini Desktop (2026): M6 Chip, 24GB RAM, 512GB SSD $1150 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $769 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 512GB SSD $949 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 2026 Mac mini Desktop: M6 Chip, 24GB RAM, 512GB SSD $1150 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $780 + Free S&H",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 256GB SSD $700 + Free Pickup",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 256GB SSD $800 & More + Free Pickup",
    "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
   },
   {
@@ -289,7 +244,7 @@
   {
    "source": "slickdeals",
    "title": "iVANKY 13-in-1 M4 Mac Mini Docking Station w/ M.2 SSD NVMe Enclosure $55 + Free S&H",
-   "reason": "matched mac-mini-m4 but no believable price in the title"
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
   },
   {
    "source": "slickdeals",
