@@ -1,0 +1,16 @@
+{
+  "about": "Where Gear Watch looks. 'apple-refurb' reads Apple's Certified Refurbished store. 'rss' reads a deal feed. 'rss-search' runs one search per watched item using the item's 'search' words. Set 'enabled' to false to pause a source.",
+  "dealWords": [
+    "deal", "deals", "sale", "off", "discount", "discounted", "low", "lowest", "low price",
+    "drops", "drop", "dropped", "falls", "save", "savings", "clearance", "refurb", "refurbished",
+    "price cut", "all-time", "record", "now", "just", "only", "markdown", "open-box", "open box", "bargain"
+  ],
+  "sources": [
+    { "id": "apple-refurb-mac", "name": "Apple Refurbished (Mac)", "type": "apple-refurb", "url": "https://www.apple.com/shop/refurbished/mac", "enabled": true },
+    { "id": "apple-refurb-ipad", "name": "Apple Refurbished (iPad)", "type": "apple-refurb", "url": "https://www.apple.com/shop/refurbished/ipad", "enabled": true },
+    { "id": "9to5toys", "name": "9to5Toys", "type": "rss", "url": "https://9to5toys.com/feed/", "enabled": true },
+    { "id": "macrumors", "name": "MacRumors deals", "type": "rss", "url": "https://feeds.macrumors.com/MacRumors-All", "enabled": true },
+    { "id": "appleinsider", "name": "AppleInsider", "type": "rss", "url": "https://appleinsider.com/rss/news/", "enabled": true },
+    { "id": "slickdeals", "name": "Slickdeals", "type": "rss-search", "url": "https://slickdeals.net/newsearch.php?mode=frontpage&searcharea=deals&searchin=first&rss=1&q={query}", "enabled": true }
+  ]
+}

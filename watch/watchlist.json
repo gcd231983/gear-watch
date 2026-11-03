@@ -1,0 +1,183 @@
+{
+  "about": "What Gear Watch tracks. Prices are US dollars. 'price' is Apple's starting price; 'target' is the price that sends you an alert. 'match' decides which deal titles count: every phrase in 'all', at least one in 'any' (if listed), none in 'none'.",
+  "excludeEverywhere": [
+    "case",
+    "cases",
+    "sleeve",
+    "skin",
+    "cover",
+    "screen protector",
+    "protector",
+    "charger",
+    "cable",
+    "adapter",
+    "hub",
+    "dock",
+    "stand",
+    "mount",
+    "folio",
+    "magic keyboard",
+    "keyboard case",
+    "pencil",
+    "airtag",
+    "airpods",
+    "watch band",
+    "trade-in",
+    "trade in",
+    "rumor",
+    "rumors",
+    "leak",
+    "review",
+    "reportedly",
+    "expected to",
+    "could cost",
+    "will cost",
+    "price hike",
+    "price increase",
+    "hikes",
+    "raises prices"
+  ],
+  "groups": [
+    "Laptops",
+    "Tablets",
+    "Desktops"
+  ],
+  "items": [
+    {
+      "id": "macbook-neo",
+      "name": "MacBook Neo",
+      "group": "Laptops",
+      "price": 599,
+      "target": 529,
+      "note": "256GB is $599. The 512GB model adds Touch ID for $699.",
+      "match": {
+        "all": [
+          "MacBook Neo"
+        ]
+      },
+      "search": "MacBook Neo"
+    },
+    {
+      "id": "macbook-pro-m6",
+      "name": "14-inch MacBook Pro (M6)",
+      "group": "Laptops",
+      "price": 1999,
+      "target": 1749,
+      "note": "New on November 6. The OLED touchscreen models are left out on purpose.",
+      "match": {
+        "all": [
+          "MacBook Pro",
+          "M6"
+        ],
+        "none": [
+          "M6 Pro",
+          "M6 Max",
+          "OLED",
+          "PROLED",
+          "touchscreen"
+        ]
+      },
+      "search": "MacBook Pro M6"
+    },
+    {
+      "id": "macbook-pro-m5-pro",
+      "name": "MacBook Pro (M5 Pro)",
+      "group": "Laptops",
+      "price": 2199,
+      "target": 1849,
+      "note": "14-inch starts at $2,199 and 16-inch at $2,699. Closeout and refurbished deals are likely now that M6 is out.",
+      "match": {
+        "all": [
+          "MacBook Pro",
+          "M5 Pro"
+        ]
+      },
+      "search": "MacBook Pro M5 Pro"
+    },
+    {
+      "id": "ipad-mini-oled",
+      "name": "iPad mini (OLED, A20 Pro)",
+      "group": "Tablets",
+      "price": 699,
+      "target": 599,
+      "note": "New on November 6. $699 for Wi-Fi, $849 for cellular.",
+      "match": {
+        "all": [
+          "iPad mini"
+        ],
+        "any": [
+          "OLED",
+          "A20",
+          "A20 Pro",
+          "2026",
+          "8.5-inch",
+          "8.5 inch"
+        ],
+        "none": [
+          "A17",
+          "mini 7"
+        ]
+      },
+      "search": "iPad mini OLED"
+    },
+    {
+      "id": "ipad-mini-a17",
+      "name": "iPad mini (A17 Pro)",
+      "group": "Tablets",
+      "price": 599,
+      "target": 449,
+      "note": "Last year's model. Watch for clearance and refurbished deals.",
+      "match": {
+        "all": [
+          "iPad mini"
+        ],
+        "any": [
+          "A17",
+          "A17 Pro",
+          "mini 7",
+          "7th gen",
+          "7th-gen",
+          "2024"
+        ],
+        "none": [
+          "OLED",
+          "A20"
+        ]
+      },
+      "search": "iPad mini A17 Pro"
+    },
+    {
+      "id": "mac-mini-m6",
+      "name": "Mac mini (M6)",
+      "group": "Desktops",
+      "price": 899,
+      "target": 799,
+      "note": "$899 for 16GB/256GB, $1,099 for 512GB, $1,299 for 24GB/512GB.",
+      "match": {
+        "all": [
+          "Mac mini",
+          "M6"
+        ]
+      },
+      "search": "Mac mini M6"
+    },
+    {
+      "id": "mac-mini-m4",
+      "name": "Mac mini (M4)",
+      "group": "Desktops",
+      "price": 799,
+      "target": 599,
+      "note": "Replaced by M6. Refurbished and clearance units are the way to get one now.",
+      "match": {
+        "all": [
+          "Mac mini",
+          "M4"
+        ],
+        "none": [
+          "M4 Pro"
+        ]
+      },
+      "search": "Mac mini M4"
+    }
+  ]
+}

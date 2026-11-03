@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Atom deals</title>
+  <entry>
+    <title type="html">MacBook Neo 512GB deal hits $629 at Best Buy</title>
+    <link rel="alternate" type="text/html" href="https://example.com/atom/neo-512"/>
+    <published>2026-11-03T08:00:00Z</published>
+  </entry>
+</feed>

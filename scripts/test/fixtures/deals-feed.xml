@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Deals feed</title>
+<item>
+  <title><![CDATA[Apple&#8217;s MacBook Neo falls to $529 at Amazon ($70 off)]]></title>
+  <link>https://example.com/deals/macbook-neo-529</link>
+  <pubDate>Mon, 02 Nov 2026 15:00:00 +0000</pubDate>
+</item>
+<item>
+  <title>Amazon takes $300 off M5 Pro MacBook Pro, now $1,899 (Reg. $2,199)</title>
+  <link>https://example.com/deals/mbp-m5-pro</link>
+  <pubDate>Mon, 02 Nov 2026 16:00:00 +0000</pubDate>
+</item>
+<item>
+  <title>Best iPad mini cases for the new OLED model from $19</title>
+  <link>https://example.com/deals/cases</link>
+  <pubDate>Mon, 02 Nov 2026 16:30:00 +0000</pubDate>
+</item>
+<item>
+  <title>OLED iPad Mini Starts at $699 After Second Price Hike This Year</title>
+  <link>https://example.com/news/ipad-mini-price-hike</link>
+  <pubDate>Mon, 26 Oct 2026 16:30:00 +0000</pubDate>
+</item>
+<item>
+  <title>M4 Mac mini clearance: $499 at Best Buy</title>
+  <link>https://example.com/deals/m4-mini</link>
+  <pubDate>Tue, 03 Nov 2026 09:00:00 +0000</pubDate>
+</item>
+<item>
+  <title>M4 Pro Mac mini sees $200 discount to $1,199</title>
+  <link>https://example.com/deals/m4-pro-mini</link>
+  <pubDate>Tue, 03 Nov 2026 09:30:00 +0000</pubDate>
+</item>
+<item>
+  <title>Apple&#8217;s iPad mini 7 (A17 Pro) drops to $399 &amp; ships free</title>
+  <link>https://example.com/deals/ipad-mini-a17</link>
+  <pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+</item>
+<item>
+  <title>Mac mini M6 deal: save $100, now $799</title>
+  <guid isPermaLink="true">https://example.com/deals/m6-mini</guid>
+  <pubDate>Tue, 03 Nov 2026 11:00:00 +0000</pubDate>
+</item>
+<item>
+  <title>Old M4 Mac mini deal from last month: $449</title>
+  <link>https://example.com/deals/old</link>
+  <pubDate>Mon, 12 Oct 2026 11:00:00 +0000</pubDate>
+</item>
+</channel>
+</rss>

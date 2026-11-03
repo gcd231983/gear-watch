@@ -1,0 +1,475 @@
+{
+ "version": 1,
+ "lastRun": "2026-11-03T13:31:48.280Z",
+ "runs": 1,
+ "items": {
+  "macbook-neo": {
+   "offers": [
+    {
+     "price": 599,
+     "title": "Refurbished MacBook Neo Apple A18 Pro chip - Citrus",
+     "url": "https://www.apple.com/shop/product/fhfd4ll/a/refurbished-macbook-neo-apple-a18-pro-chip-citrus?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+     "source": "apple-refurb-mac",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 600,
+     "title": "Dell's latest XPS 13 is an even better MacBook Neo alternative now at $600 early Black Friday price",
+     "url": "https://9to5toys.com/2026/11/03/dell-xps-13-is-an-even-better-macbook-neo-alternative-now-600/",
+     "source": "9to5toys",
+     "kind": "deal",
+     "publishedAt": "2026-11-03T13:03:34.000Z",
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 679,
+     "title": "Refurbished MacBook Neo Apple A18 Pro chip with Touch ID - Citrus",
+     "url": "https://www.apple.com/shop/product/fhfe4ll/a/refurbished-macbook-neo-apple-a18-pro-chip-with-touch-id-citrus?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+     "source": "apple-refurb-mac",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-11-03",
+     "low": 599
+    }
+   ],
+   "lowest": {
+    "price": 599,
+    "title": "Refurbished MacBook Neo Apple A18 Pro chip - Citrus",
+    "url": "https://www.apple.com/shop/product/fhfd4ll/a/refurbished-macbook-neo-apple-a18-pro-chip-citrus?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+    "source": "apple-refurb-mac",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z",
+    "at": "2026-11-03T13:31:48.280Z"
+   },
+   "best": {
+    "price": 599,
+    "title": "Refurbished MacBook Neo Apple A18 Pro chip - Citrus",
+    "url": "https://www.apple.com/shop/product/fhfd4ll/a/refurbished-macbook-neo-apple-a18-pro-chip-citrus?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+    "source": "apple-refurb-mac",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z"
+   }
+  },
+  "macbook-pro-m6": {
+   "offers": [],
+   "daily": [],
+   "lowest": null,
+   "best": null
+  },
+  "macbook-pro-m5-pro": {
+   "offers": [
+    {
+     "price": 2549,
+     "title": "Refurbished 16-inch MacBook Pro Apple M5 Pro chip with 18-Core CPU and 20-Core GPU - Space Black",
+     "url": "https://www.apple.com/shop/product/fgea4ll/a/Refurbished-16-inch-MacBook-Pro-Apple-M5-Pro-chip-with-18%E2%80%91Core-CPU-and-20%E2%80%91Core-GPU-Space-Black?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+     "source": "apple-refurb-mac",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 2549,
+     "title": "Refurbished 16-inch MacBook Pro Apple M5 Pro chip with 18-Core CPU and 20-Core GPU - Silver",
+     "url": "https://www.apple.com/shop/product/fge44ll/a/Refurbished-16-inch-MacBook-Pro-Apple-M5-Pro-chip-with-18%E2%80%91Core-CPU-and-20%E2%80%91Core-GPU-Silver?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+     "source": "apple-refurb-mac",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 3059,
+     "title": "Refurbished 16-inch MacBook Pro Apple M5 Pro chip with 18-Core CPU and 20-Core GPU - Space Black",
+     "url": "https://www.apple.com/shop/product/fgec4ll/a/Refurbished-16-inch-MacBook-Pro-Apple-M5-Pro-chip-with-18%E2%80%91Core-CPU-and-20%E2%80%91Core-GPU-Space-Black?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+     "source": "apple-refurb-mac",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-11-03",
+     "low": 2549
+    }
+   ],
+   "lowest": {
+    "price": 2549,
+    "title": "Refurbished 16-inch MacBook Pro Apple M5 Pro chip with 18-Core CPU and 20-Core GPU - Space Black",
+    "url": "https://www.apple.com/shop/product/fgea4ll/a/Refurbished-16-inch-MacBook-Pro-Apple-M5-Pro-chip-with-18%E2%80%91Core-CPU-and-20%E2%80%91Core-GPU-Space-Black?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+    "source": "apple-refurb-mac",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z",
+    "at": "2026-11-03T13:31:48.280Z"
+   },
+   "best": {
+    "price": 2549,
+    "title": "Refurbished 16-inch MacBook Pro Apple M5 Pro chip with 18-Core CPU and 20-Core GPU - Space Black",
+    "url": "https://www.apple.com/shop/product/fgea4ll/a/Refurbished-16-inch-MacBook-Pro-Apple-M5-Pro-chip-with-18%E2%80%91Core-CPU-and-20%E2%80%91Core-GPU-Space-Black?fnode=ecaf99abfd22e89c6db021fa3d46d5992cfc520340ba93b90980edaec96493a853d67d4ee15f8f40bd2af0f6fcf922436a35127c3f27967074fe9a801fda934d8e8d13a8e9f4a94aaf406ed2d2abc2d4",
+    "source": "apple-refurb-mac",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z"
+   }
+  },
+  "ipad-mini-oled": {
+   "offers": [],
+   "daily": [],
+   "lowest": null,
+   "best": null
+  },
+  "ipad-mini-a17": {
+   "offers": [
+    {
+     "price": 509,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Purple",
+     "url": "https://www.apple.com/shop/product/fxn93ll/a/refurbished-ipad-mini-a17-pro-wi-fi-128gb-purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 509,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fxn83ll/a/refurbished-ipad-mini-a17-pro-wi-fi-128gb-starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 509,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Blue",
+     "url": "https://www.apple.com/shop/product/fxn73ll/a/refurbished-ipad-mini-a17-pro-wi-fi-128gb-blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 509,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fxn63ll/a/Refurbished-iPad-Mini-A17-Pro-Wi-Fi-128GB-Space-Gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 599,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 256GB - Purple",
+     "url": "https://www.apple.com/shop/product/fxne3ll/a/refurbished-ipad-mini-a17-pro-wi-fi-256gb-purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 599,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 256GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fxnd3ll/a/refurbished-ipad-mini-a17-pro-wi-fi-256gb-starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 599,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 256GB - Blue",
+     "url": "https://www.apple.com/shop/product/fxnc3ll/a/refurbished-ipad-mini-a17-pro-wi-fi-256gb-blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 599,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 256GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fxna3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi-Fi-256GB-Space-Gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 639,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 128GB - Purple",
+     "url": "https://www.apple.com/shop/product/fxpr3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-128GB-Purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 639,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 128GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fxpq3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-128GB-Starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 639,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 128GB - Blue",
+     "url": "https://www.apple.com/shop/product/fxpp3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-128GB-Blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 639,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 128GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fxpn3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-128GB-Space-Gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 729,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 256GB - Purple",
+     "url": "https://www.apple.com/shop/product/fxpy3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-256GB-Purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 729,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 256GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fxpx3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-256GB-Starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 729,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 256GB - Blue",
+     "url": "https://www.apple.com/shop/product/fxpw3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-256GB-Blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 729,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 256GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fxpt3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-256GB-Space-Gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 769,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 512GB - Purple",
+     "url": "https://www.apple.com/shop/product/fyh33ll/a/refurbished-ipad-mini-a17-pro-wi-fi-512gb-purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 769,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 512GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fyh23ll/a/refurbished-ipad-mini-a17-pro-wi-fi-512gb-starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 769,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 512GB - Blue",
+     "url": "https://www.apple.com/shop/product/fyh13ll/a/refurbished-ipad-mini-a17-pro-wi-fi-512gb-blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 769,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 512GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fygy3ll/a/refurbished-ipad-mini-a17-pro-wi-fi-512gb-space-gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 899,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 512GB - Purple",
+     "url": "https://www.apple.com/shop/product/fyhf3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-512GB-Purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 899,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 512GB - Starlight",
+     "url": "https://www.apple.com/shop/product/fyhe3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-512GB-Starlight?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 899,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 512GB - Blue",
+     "url": "https://www.apple.com/shop/product/fyhd3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-512GB-Blue?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    },
+    {
+     "price": 899,
+     "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi+Cellular 512GB - Space Gray",
+     "url": "https://www.apple.com/shop/product/fyhc3ll/a/Refurbished-iPad-Mini-A17-Pro-Wi%E2%80%91FiCellular-512GB-Space-Gray?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+     "source": "apple-refurb-ipad",
+     "kind": "refurb",
+     "publishedAt": null,
+     "firstSeen": "2026-11-03T13:31:48.280Z",
+     "lastSeen": "2026-11-03T13:31:48.280Z"
+    }
+   ],
+   "daily": [
+    {
+     "d": "2026-11-03",
+     "low": 509
+    }
+   ],
+   "lowest": {
+    "price": 509,
+    "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Purple",
+    "url": "https://www.apple.com/shop/product/fxn93ll/a/refurbished-ipad-mini-a17-pro-wi-fi-128gb-purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+    "source": "apple-refurb-ipad",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z",
+    "at": "2026-11-03T13:31:48.280Z"
+   },
+   "best": {
+    "price": 509,
+    "title": "Refurbished iPad Mini (A17 Pro) Wi-Fi 128GB - Purple",
+    "url": "https://www.apple.com/shop/product/fxn93ll/a/refurbished-ipad-mini-a17-pro-wi-fi-128gb-purple?fnode=da0f9caf27660b4b85e272b0d21d52102b0fab25a4807e6a10299debd6b6716c3f182e91b059850abbe17b760550e581c11acb5a5e4e1cdae4232791d80bd3d370697bb587bd88ff1e3ca3f55f6b0c89",
+    "source": "apple-refurb-ipad",
+    "kind": "refurb",
+    "publishedAt": null,
+    "firstSeen": "2026-11-03T13:31:48.280Z",
+    "lastSeen": "2026-11-03T13:31:48.280Z"
+   }
+  },
+  "mac-mini-m6": {
+   "offers": [],
+   "daily": [],
+   "lowest": null,
+   "best": null
+  },
+  "mac-mini-m4": {
+   "offers": [],
+   "daily": [],
+   "lowest": null,
+   "best": null
+  }
+ },
+ "sources": {
+  "apple-refurb-mac": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 106,
+   "lastError": null,
+   "failingSince": null
+  },
+  "apple-refurb-ipad": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 179,
+   "lastError": null,
+   "failingSince": null
+  },
+  "9to5toys": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 50,
+   "lastError": null,
+   "failingSince": null
+  },
+  "macrumors": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 20,
+   "lastError": null,
+   "failingSince": null
+  },
+  "appleinsider": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 50,
+   "lastError": null,
+   "failingSince": null
+  },
+  "slickdeals": {
+   "ok": true,
+   "lastOk": "2026-11-03T13:31:48.280Z",
+   "failStreak": 0,
+   "lastCount": 109,
+   "lastError": null,
+   "failingSince": null
+  }
+ },
+ "alerts": {}
+}

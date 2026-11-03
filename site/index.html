@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gian’s Picks</title>
+  <meta name="description" content="What I tell friends when they ask what to buy, with today’s best prices.">
+  <meta property="og:title" content="Gian’s Picks">
+  <meta property="og:description" content="What I tell friends when they ask what to buy, with today’s best prices.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="masthead">
+      <h1 id="title">Gian’s Picks</h1>
+      <p id="intro"></p>
+    </header>
+    <div id="notices"></div>
+    <div id="picks"></div>
+    <footer>
+      <p id="updated">Prices come from Apple’s refurbished store and deal sites, checked every two hours. They change fast, so check the price at the store before you buy.</p>
+      <p><a href="watch.html">See every price I’m watching</a></p>
+    </footer>
+  </main>
+  <script src="gw.js"></script>
+  <script>
+    const { esc, safeUrl, typo, money, ago } = GW;
+
+    function render(data) {
+      const preview = location.hash === '#preview';
+      const picks = data.picks || {};
+      const items = Object.fromEntries((data.items || []).map((i) => [i.id, i]));
+      document.getElementById('title').textContent = typo(picks.title || 'Gian\'s Picks');
+      document.title = typo(picks.title || 'Gian\'s Picks');
+      document.getElementById('intro').textContent = typo(picks.intro || '');
+
+      const drafts = (picks.sections || []).flatMap((s) => s.picks || []).filter((p) => p.draft).length;
+      document.getElementById('notices').innerHTML = preview
+        ? `<p class="notice preview">Preview: ${drafts} draft ${drafts === 1 ? 'pick is' : 'picks are'} showing. Visitors only see picks with <code>"draft": false</code>.</p>`
+        : '';
+
+      let n = 0;
+      const html = (picks.sections || []).map((sec) => {
+        const list = (sec.picks || []).filter((p) => preview || !p.draft);
+        if (!list.length) return '';
+        return `<section class="group"><h2>${esc(typo(sec.name))}</h2>${list.map((p) => {
+          const it = p.watch ? items[p.watch] : null;
+          const best = it && it.best;
+          const tag = best ? `<span class="tag swing" style="--d:${n++ * 80}ms">${money(best.price)}<small>today</small></span>` : '';
+          const rows = [['Good for', p.goodFor], ['Why', p.why], ['Skip it if', p.skipIf]]
+            .filter(([, v]) => v)
+            .map(([k, v]) => `<dt>${k}</dt><dd>${esc(typo(v))}</dd>`).join('');
+          let go = '';
+          if (safeUrl(p.link)) go = `<a class="go" href="${esc(safeUrl(p.link))}" rel="noopener">${esc(typo(p.linkText || 'Learn more'))}</a>`;
+          else if (best && safeUrl(best.url)) go = `<a class="go" href="${esc(safeUrl(best.url))}" rel="noopener">See today’s best price</a>`;
+          else if (it) go = `<a class="go" href="watch.html#${esc(it.id)}">See price history</a>`;
+          return `<article class="label pick" id="${esc(p.id)}">
+            <div class="label-head"><h3>${esc(typo(p.name))}${p.draft ? '<span class="draft-mark">Draft</span>' : ''}</h3>${tag}</div>
+            <dl>${rows}</dl>
+            ${go}
+          </article>`;
+        }).join('')}</section>`;
+      }).join('');
+
+      document.getElementById('picks').innerHTML = html || `<div class="empty-state"><p><strong>Picks are on the way.</strong> Check back soon.</p></div>`;
+      if (data.generatedAt) {
+        document.getElementById('updated').textContent =
+          `Prices last checked ${ago(data.generatedAt)}, from Apple’s refurbished store and deal sites. They change fast, so check the price at the store before you buy.`;
+      }
+    }
+
+    let DATA;
+    GW.load().then((d) => { DATA = d; render(d); }).catch(() => {
+      document.getElementById('picks').innerHTML = '<div class="empty-state"><p>Picks couldn’t load. Refresh the page in a minute.</p></div>';
+    });
+    window.addEventListener('hashchange', () => DATA && render(DATA));
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "about": "The public Gian's Picks page. A pick with \"draft\": true is hidden from visitors; open the page with #preview at the end of the address to see drafts. 'watch' links a pick to a Gear Watch item so it shows today's best price.",
+  "title": "Gian's Picks",
+  "intro": "What I tell friends when they ask what to buy.",
+  "sections": [
+    {
+      "name": "Laptops",
+      "picks": [
+        {
+          "id": "macbook-neo",
+          "name": "MacBook Neo",
+          "watch": "macbook-neo",
+          "goodFor": "Students, email and web, and anyone who wants a real Mac without spending a thousand dollars.",
+          "why": "Aluminum build, a sharp 13-inch screen and up to 16 hours of battery, for less than any MacBook before it.",
+          "skipIf": "You edit video or keep a lot of apps open. It tops out at 8GB of memory.",
+          "draft": true
+        },
+        {
+          "id": "macbook-pro-m6",
+          "name": "14-inch MacBook Pro (M6)",
+          "watch": "macbook-pro-m6",
+          "goodFor": "Video editing, coding and heavier work that would bog down a MacBook Neo.",
+          "why": "The newest base Pro, and the one most people who need a Pro should look at first.",
+          "skipIf": "Your day is mostly browser tabs and documents. That's MacBook Neo territory.",
+          "draft": true
+        }
+      ]
+    },
+    {
+      "name": "Tablets",
+      "picks": [
+        {
+          "id": "ipad-mini-oled",
+          "name": "iPad mini (OLED)",
+          "watch": "ipad-mini-oled",
+          "goodFor": "Reading, notes and travel, when a phone is too small and a laptop is too much.",
+          "why": "The new 8.5-inch OLED screen and A20 Pro chip, and it's the first iPad that's water resistant.",
+          "skipIf": "You want a laptop replacement with a keyboard. Get a bigger iPad or a MacBook.",
+          "draft": true
+        }
+      ]
+    },
+    {
+      "name": "Desktops",
+      "picks": [
+        {
+          "id": "mac-mini-m6",
+          "name": "Mac mini (M6)",
+          "watch": "mac-mini-m6",
+          "goodFor": "A desk setup where you already have a monitor, keyboard and mouse.",
+          "why": "16GB of memory, Wi-Fi 7 and up to three displays in a box that fits in your hand.",
+          "skipIf": "You need to work from the couch. On a tight budget, watch for a refurbished M4 instead.",
+          "draft": true
+        }
+      ]
+    },
+    {
+      "name": "Phone plans",
+      "picks": [
+        {
+          "id": "five-bars",
+          "name": "Five Bars",
+          "goodFor": "Picking a phone plan or chasing a free-phone deal.",
+          "why": "My tracker that compares plans and phone deals from the big three carriers and smaller carriers like Visible, Mint and US Mobile.",
+          "link": "https://gcd231983.github.io/five-bars/",
+          "linkText": "Compare phone plans on Five Bars",
+          "draft": false
+        }
+      ]
+    }
+  ]
+}

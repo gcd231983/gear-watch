@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gear Watch</title>
+  <meta name="description" content="Prices on the Macs and iPads I'm waiting to buy, checked every two hours.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="masthead">
+      <h1>Gear Watch</h1>
+      <p id="checked">Loading prices…</p>
+      <p class="crosslink"><a href="./">Gian’s Picks</a></p>
+    </header>
+    <div id="notices"></div>
+    <div id="items"></div>
+    <section class="sources" id="sources" hidden>
+      <h2>Where prices come from</h2>
+      <ul id="source-list"></ul>
+    </section>
+    <footer>
+      <p>Checks Apple’s Certified Refurbished store and deal sites every two hours. Deal posts count for a week after they’re published; refurbished listings count while Apple lists them.</p>
+      <p>Change targets or add items in <code>watch/watchlist.json</code>.</p>
+    </footer>
+  </main>
+  <script src="gw.js"></script>
+  <script>
+    const { esc, safeUrl, typo, money, ago, clock, sparkline } = GW;
+
+    function itemHtml(it, i) {
+      const best = it.best;
+      const tag = best
+        ? `<span class="tag swing" style="--d:${i * 70}ms">${money(best.price)}${best.kind === 'refurb' ? '<small>refurb</small>' : ''}</span>`
+        : `<span class="tag empty">No deals yet</span>`;
+      const status = it.status === 'hit'
+        ? `<p class="status hit">At or under your ${money(it.target)} target</p>`
+        : it.status === 'watching'
+          ? `<p class="status">${money(best.price - it.target)} above your target</p>`
+          : '';
+      const facts = [
+        ['Apple', money(it.price)],
+        ['Target', money(it.target)],
+        it.lowest ? ['Lowest seen', money(it.lowest.price)] : null
+      ].filter(Boolean).map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+      const srcName = (id) => (DATA.sources.find((s) => s.id === id) || {}).name || id;
+      const when = (o) => o.kind === 'refurb' ? `listed ${ago(o.firstSeen)}` : `posted ${ago(o.publishedAt || o.firstSeen)}`;
+      const link = (o, text) => safeUrl(o.url) ? `<a href="${esc(safeUrl(o.url))}" rel="noopener">${text}</a>` : '';
+      const bestHtml = best
+        ? `<p class="best">Best right now: <q>${esc(typo(best.title))}</q> <span class="src">${esc(srcName(best.source))}, ${when(best)}.</span> ${link(best, best.kind === 'refurb' ? 'View at Apple' : 'Open deal')}</p>`
+        : `<p class="best src">Nothing matching yet. New deals and refurbished listings show up here as soon as a check finds them.</p>`;
+      const others = (it.offers || []).slice(1);
+      const moreHtml = others.length
+        ? `<details class="more"><summary>${others.length} more ${others.length === 1 ? 'sighting' : 'sightings'}</summary><ul>${others
+            .map((o) => `<li><span class="p">${money(o.price)}</span> ${esc(typo(o.title))} <span class="src">(${esc(srcName(o.source))}, ${when(o)})</span> ${link(o, 'Open')}</li>`)
+            .join('')}</ul></details>`
+        : '';
+      return `<article class="label" id="${esc(it.id)}">
+        <div class="label-head">
+          <h3>${esc(typo(it.name))}</h3>
+          ${tag}
+        </div>
+        ${it.note ? `<p class="note">${esc(typo(it.note))}</p>` : ''}
+        ${status}
+        <dl class="facts">${facts}</dl>
+        ${sparkline(it.daily, it.target)}
+        ${bestHtml}
+        ${moreHtml}
+      </article>`;
+    }
+
+    let DATA;
+    GW.load().then((data) => {
+      DATA = data;
+      document.getElementById('checked').textContent = data.generatedAt
+        ? `Last checked ${ago(data.generatedAt)} (${clock(data.generatedAt)} Eastern). Checks run every ${data.everyHours} hours.`
+        : 'Waiting for the first check.';
+
+      const down = data.sources.filter((s) => s.ok === false);
+      document.getElementById('notices').innerHTML = down.length
+        ? `<p class="notice">${down.length === 1 ? `${esc(down[0].name)} isn’t answering right now, so its deals are missing.` : `${down.length} sources aren’t answering right now, so their deals are missing.`} The rest are still being checked. Details at the bottom.</p>`
+        : '';
+
+      let i = 0;
+      const groups = data.groups && data.groups.length ? data.groups : [...new Set(data.items.map((x) => x.group))];
+      document.getElementById('items').innerHTML = groups.map((g) => {
+        const list = data.items.filter((x) => x.group === g);
+        if (!list.length) return '';
+        return `<section class="group"><h2>${esc(g)}</h2>${list.map((it) => itemHtml(it, i++)).join('')}</section>`;
+      }).join('');
+
+      document.getElementById('source-list').innerHTML = data.sources.map((s) => {
+        if (s.ok === true) return `<li><span><strong>${esc(s.name)}</strong> <span class="why">Read ${ago(s.lastOk)}. ${s.lastCount} listings.</span></span></li>`;
+        if (s.ok === false) return `<li class="down"><span><strong>${esc(s.name)}</strong> <span class="why">Not answering for ${s.failStreak} ${s.failStreak === 1 ? 'check' : 'checks'}${s.lastOk ? `, last read ${ago(s.lastOk)}` : ''}. ${esc(s.lastError || '')}</span></span></li>`;
+        return `<li class="unknown"><span><strong>${esc(s.name)}</strong> <span class="why">Not checked yet.</span></span></li>`;
+      }).join('');
+      document.getElementById('sources').hidden = false;
+
+      if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    }).catch((err) => {
+      document.getElementById('checked').textContent = 'Prices couldn’t load. ' + err.message + '. Try again after the next check.';
+    });
+  </script>
+</body>
+</html>

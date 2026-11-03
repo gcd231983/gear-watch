@@ -1,0 +1,12 @@
+{
+  "name": "gear-watch",
+  "private": true,
+  "type": "module",
+  "description": "Gian's tech price tracker and Gian's Picks page. No dependencies.",
+  "scripts": {
+    "test": "node --test scripts/test/*.test.mjs",
+    "run": "node scripts/run.mjs",
+    "check": "node --test scripts/test/*.test.mjs && node scripts/validate.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
