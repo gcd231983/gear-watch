@@ -201,3 +201,14 @@ test('comparison headlines about other brands do not count as Apple deals', () =
   const raw = [{ title: "Dell's latest XPS 13 is an even better MacBook Neo alternative now at $600 early", url: 'https://9to5toys.com/x' }];
   assert.equal(matchListings(raw, feedSrc, items, cfg).length, 0);
 });
+
+test('saved offers are rechecked when the rules change', () => {
+  const h = emptyHistory();
+  const loose = { ...cfg, excludeEverywhere: [] };
+  const raw = [{ title: "Dell's XPS 13 is a MacBook Neo alternative now at $600", url: 'https://9to5toys.com/x', publishedAt: '2026-11-03T10:00:00.000Z' }];
+  const r = (c) => [{ source: feedSrc, ok: true, count: 1, matches: matchListings(raw, feedSrc, items, c) }];
+  applyRun(h, items, r(loose), '2026-11-03T12:00:00.000Z', loose);
+  assert.equal(h.items['macbook-neo'].best.price, 600);
+  applyRun(h, items, r(cfg), '2026-11-03T14:00:00.000Z', cfg);
+  assert.equal(h.items['macbook-neo'].best, null, 'the old Dell entry is gone after the rules tightened');
+});

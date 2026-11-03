@@ -125,7 +125,7 @@ export async function main({ root = ROOT, env = process.env, get, fetchImpl, log
     })
   );
 
-  applyRun(history, items, results, now);
+  applyRun(history, items, results, now, cfg);
 
   const repo = env.GITHUB_REPOSITORY;
   const ctx = {

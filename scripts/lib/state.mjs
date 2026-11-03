@@ -70,7 +70,9 @@ function dayKey(iso, tz = 'America/New_York') {
 }
 
 // results: [{ source, ok, error, count, matches: [{itemId, offer}] }]
-export function applyRun(history, items, results, now) {
+// cfg (optional): { excludeEverywhere }. When given, saved offers are rechecked against the
+// current matching rules every run, so a rule change cleans up old entries right away.
+export function applyRun(history, items, results, now, cfg = null) {
   const h = history;
   const nowMs = new Date(now).getTime();
   h.lastRun = now;
@@ -115,6 +117,7 @@ export function applyRun(history, items, results, now) {
       }
     }
 
+    if (cfg) offers = offers.filter((o) => matchesItem(o.title, item, cfg.excludeEverywhere));
     offers = offers.filter((o) => {
       if (o.kind === 'refurb') return nowMs - new Date(o.lastSeen).getTime() <= REFURB_GRACE_H * H;
       const t = new Date(o.publishedAt || o.firstSeen).getTime();
