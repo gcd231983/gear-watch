@@ -196,3 +196,8 @@ test('a listing counts for the right item no matter which search found it', () =
   ];
   assert.deepEqual(byItem(matchListings(raw, slick, items, cfg)), { 'mac-mini-m6': 779 });
 });
+
+test('comparison headlines about other brands do not count as Apple deals', () => {
+  const raw = [{ title: "Dell's latest XPS 13 is an even better MacBook Neo alternative now at $600 early", url: 'https://9to5toys.com/x' }];
+  assert.equal(matchListings(raw, feedSrc, items, cfg).length, 0);
+});
