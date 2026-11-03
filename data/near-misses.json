@@ -1,0 +1,305 @@
+{
+ "checkedAt": "2026-11-03T13:54:11.902Z",
+ "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
+ "misses": [
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 16-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 40-Core GPU - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 4249
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 16-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 40-Core GPU - Silver",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 4249
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 16-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 32-Core GPU - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 3739
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 16-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 32-Core GPU - Silver",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 3739
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 32-Core GPU - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 3479
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 Max chip with 18-Core CPU and 32-Core GPU - Silver",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 3479
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Nano-texture display - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 3269
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU, Nano-texture display - Silver",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 1739
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU, Nano-texture display - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 1739
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Silver",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 1609
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Space Black",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
+   "price": 1609
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 256GB - Pink",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 529
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 256GB - Purple",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 529
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 256GB - Starlight",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 529
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 256GB - Space Gray",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 529
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 64GB - Pink",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 459
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 64GB - Purple",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 459
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 64GB - Starlight",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 459
+  },
+  {
+   "source": "apple-refurb-ipad",
+   "title": "Refurbished iPad mini 6 Wi-Fi 64GB - Space Gray",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 459
+  },
+  {
+   "source": "9to5toys",
+   "title": "Rare MacBook Neo deal live at Amazon, or $120 off straight from Apple refurb",
+   "reason": "matched macbook-neo but no believable price in the title"
+  },
+  {
+   "source": "9to5toys",
+   "title": "Apple's 2026 Mac mini lineup is up to $150 off to start Black Friday month",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "macrumors",
+   "title": "Apple Explores Cheaper Way to Make New MacBook Pro's OLED Tech",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Apple's latest giant education deal: 170,000 MacBook Neo to Philippines",
+   "reason": "matched macbook-neo but no believable price in the title"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Apple promotes Labrinth stream just ahead of OLED MacBook Pro release",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Apple's M5 MacBook Pro plunges to $1,349, lowest price on record",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Amazon knocks $150 off Apple's M6, M5 Pro Mac mini with 24GB RAM",
+   "reason": "matched mac-mini-m6 but no believable price in the title"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Costco Members: 14.2\" Apple MacBook Pro Laptop: 3024x1964, M5 Chip, 16GB, 1TB $1350 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "14\" Apple MacBook Pro: 3024x1964 120Hz, M5 10-Core Chip, 16GB RAM, 1TB SSD $1350 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 16\" MacBook Pro Laptop: M5 Max, 36GB RAM, 2TB SSD $3499 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 16\" MacBook Pro Laptop: M5 Max, 36GB RAM, 2TB SSD $3499 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "16.2′′ Apple MacBook Pro Laptop: M5 Max Chip, 36GB RAM, 2TB SSD $3499 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "MacBook Pro 14\" Laptop (2026): M5 Max Chip, 36GB RAM, 2TB SSD $3299 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "14.2\" Apple MacBook Pro Laptop (2026): M5 Chip,18C/20C, 24GB RAM, 2TB SSD $2599 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple MacBook Pro 14\" Laptop (Early 2026): M5 Max Chip, 36GB RAM, 2TB SSD $3299 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "MicroCenter: 16.2\" Apple MacBook Pro Laptop: M5 Max, 64GB RAM, 2TB SSD $4300 + Free Pickup",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Select Micro Center Stores: 14.2\" Apple MacBook Pro Laptop: M5 Max, 36GB, 2TB $3000 + Free Pickup",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 14\" MacBook Pro: M5 10-Core Chip, 24GB RAM, 1TB SSD $1899 + S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Smart Folio Case for iPad Mini A17 Pro (Charcoal Grey) $8 + Free Shipping",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Smart Folio for iPad mini (A17 Pro, Various Colors) from $34.35",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "ORICO 10-in-1 Mac mini Vertical Dock Stand w/ M.2 SSD Slot, 4K HDMI & 10Gbps USB $25",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Mac mini Desktop (2026): M6 Chip, 24GB RAM, 512GB SSD $1179 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $779 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "ORICO 10-in-1 Mac mini Vertical Dock Stand w/ M.2 SSD Slot, 4K HDMI & 10Gbps USB $25",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $780 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Mac mini Desktop (2026): M6 Chip, 24GB RAM, 512GB SSD $1150 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $769 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 512GB SSD $949 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 2026 Mac mini Desktop: M6 Chip, 24GB RAM, 512GB SSD $1150 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple 2026 Mac mini Desktop Computer M6 chip (16GB / 256GB) $780 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 256GB SSD $700 + Free Pickup",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Apple Mac mini Desktop (2026): M6 12-Core, 16GB RAM, 256GB SSD $800 & More + Free Pickup",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Satechi 6-in-1 USB-C Aluminum Stand & Hub for Mac mini M1 / M2 $30 + Free S&H w/ Prime",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Prime: UGREEN Mac mini M4 Dock & Stand DP Hub for M4 / M4 Pro 2024 w/ NVMe SSD Enclosure $60 + Free S&H",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "iVANKY 13-in-1 M4 Mac Mini Docking Station w/ M.2 SSD NVMe Enclosure $55 + Free S&H",
+   "reason": "matched mac-mini-m4 but no believable price in the title"
+  },
+  {
+   "source": "slickdeals",
+   "title": "BAOZEE Mac mini M4 Dock USB-C Hub w/ NVMe SSD Enclosure $43 + Free Shipping w/ Prime",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "slickdeals",
+   "title": "iVANKY 13-in-1 Mac Mini M4 Dock w/ M.2 SSD Enclosure, 4K@120Hz HDMI, 10Gbps USB $55 + Free Shipping",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
+  }
+ ]
+}

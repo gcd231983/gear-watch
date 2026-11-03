@@ -157,3 +157,33 @@ test('alerts: a failed GitHub call leaves the alert to retry next run', async ()
   assert.equal(Object.keys(h.alerts).length, 0);
   assert.ok(logs.some((l) => l.includes('Could not send')));
 });
+
+import { explainMisses } from '../lib/state.mjs';
+
+test('Slickdeals-style titles (no deal words) count when the source is deals-only', () => {
+  const raw = [
+    { title: 'Apple Mac mini (2024): M4 10-Core CPU, 16GB RAM, 256GB SSD $479 + Free Shipping', url: 'https://slickdeals.net/f/1', query: 'Mac mini M4' },
+    { title: 'Apple Mac mini M6 16GB/256GB $829.99 at Best Buy', url: 'https://slickdeals.net/f/2', query: 'Mac mini M6' }
+  ];
+  const slick = { id: 'slickdeals', type: 'rss-search', dealsOnly: true };
+  assert.deepEqual(byItem(matchListings(raw, slick, items, cfg)), { 'mac-mini-m4': 479, 'mac-mini-m6': 829.99 });
+  // The same titles from a news feed are skipped, and the near-miss log says why.
+  const news = { id: 'news', type: 'rss' };
+  assert.equal(matchListings(raw.map(({ query, ...r }) => r), news, items, cfg).length, 0);
+  const why = explainMisses(raw.map(({ query, ...r }) => r), news, items, cfg);
+  assert.equal(why.length, 2);
+  assert.equal(why[0].reason, 'no deal words in the title');
+});
+
+test('near-miss log explains other models and missing prices, and skips unrelated listings', () => {
+  const raw = [
+    { title: 'M4 Pro Mac mini deal drops to $1,199' },
+    { title: 'MacBook Neo deals: big savings this week' },
+    { title: 'AirPods Pro 3 drop to $199' },
+    { title: 'MacBook Neo drops to $529' }
+  ];
+  const why = explainMisses(raw, feedSrc, items, cfg);
+  assert.equal(why.length, 2);
+  assert.match(why[0].reason, /mentions Mac mini but no watched item matched/);
+  assert.match(why[1].reason, /matched macbook-neo but no believable price/);
+});

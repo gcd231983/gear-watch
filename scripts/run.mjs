@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { getText } from './lib/http.mjs';
 import { parseFeed, looksLikeFeed } from './lib/rss.mjs';
 import { parseRefurb } from './lib/apple-refurb.mjs';
-import { loadHistory, matchListings, applyRun, itemStatus } from './lib/state.mjs';
+import { loadHistory, matchListings, applyRun, itemStatus, explainMisses } from './lib/state.mjs';
 import { planAlerts, sendAlerts } from './lib/alerts.mjs';
 import { makeGitHub } from './lib/github.mjs';
 import { validateConfig } from './lib/validate.mjs';
@@ -117,9 +117,10 @@ export async function main({ root = ROOT, env = process.env, get, fetchImpl, log
       try {
         const { raw, note } = await readSource(source, items, { get: get || ((u) => getText(u, { fetchImpl })) });
         const matches = matchListings(raw, source, items, cfg);
-        return { source, ok: true, count: raw.length, matches, note };
+        const misses = explainMisses(raw, source, items, cfg);
+        return { source, ok: true, count: raw.length, matches, misses, note };
       } catch (err) {
-        return { source, ok: false, error: err.message, count: 0, matches: [] };
+        return { source, ok: false, error: err.message, count: 0, matches: [], misses: [] };
       }
     })
   );
@@ -138,6 +139,10 @@ export async function main({ root = ROOT, env = process.env, get, fetchImpl, log
 
   await fs.mkdir(path.dirname(historyPath), { recursive: true });
   await fs.writeFile(historyPath, JSON.stringify(history, null, 1) + '\n');
+  await fs.writeFile(
+    path.join(root, 'data/near-misses.json'),
+    JSON.stringify({ checkedAt: now, note: 'Listings that mention a watched product but did not count, and why. Rewritten every run.', misses: results.flatMap((r) => r.misses || []) }, null, 1) + '\n'
+  );
   const site = buildSiteData(history, watchlist, sourcesCfg, picks, ctx);
   await fs.writeFile(path.join(root, 'site/data.json'), JSON.stringify(site) + '\n');
 

@@ -1,5 +1,5 @@
 // Turns one run's raw listings into offers per watched item and keeps a running history.
-import { matchesItem, pickPrice, hasDealWords } from './text.mjs';
+import { matchesItem, pickPrice, hasDealWords, hasPhrase } from './text.mjs';
 
 export const DEAL_DAYS = 7;        // a deal post counts for a week after it's published
 export const REFURB_GRACE_H = 30;  // keep refurb listings this long if Apple's page can't be read
@@ -19,12 +19,32 @@ export function loadHistory(obj) {
   return h;
 }
 
+const needsDealWords = (source) => source.type !== 'apple-refurb' && !source.dealsOnly;
+
+// Listings that mention a watched product but didn't count, with the reason.
+// Saved to data/near-misses.json each run so matching rules are easy to tune.
+export function explainMisses(raw, source, items, cfg, limit = 40) {
+  const out = [];
+  for (const r of raw) {
+    const family = items.filter((it) => hasPhrase(r.title, it.match?.all?.[0] || '') && (!r.query || r.query === it.search));
+    if (!family.length) continue;
+    const matched = family.filter((it) => matchesItem(r.title, it, cfg.excludeEverywhere));
+    let reason = null;
+    if (needsDealWords(source) && !hasDealWords(r.title, cfg.dealWords)) reason = 'no deal words in the title';
+    else if (!matched.length) reason = 'mentions ' + family[0].match.all[0] + ' but no watched item matched (other model, accessory or excluded word)';
+    else if (r.price == null && matched.every((it) => pickPrice(r.title, it.price, it.range) == null)) reason = 'matched ' + matched.map((m) => m.id).join(', ') + ' but no believable price in the title';
+    if (reason) out.push({ source: source.id, title: r.title, reason, ...(r.price != null ? { price: r.price } : {}) });
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
 // raw: [{ title, url, price?, publishedAt?, query? }] from one source.
 // Returns [{ itemId, offer }] for every listing that is one of the watched items.
 export function matchListings(raw, source, items, cfg) {
   const out = [];
   for (const r of raw) {
-    if (source.type !== 'apple-refurb' && !hasDealWords(r.title, cfg.dealWords)) continue;
+    if (needsDealWords(source) && !hasDealWords(r.title, cfg.dealWords)) continue;
     for (const item of items) {
       if (r.query && r.query !== item.search) continue;
       if (!matchesItem(r.title, item, cfg.excludeEverywhere)) continue;

@@ -50,7 +50,8 @@ Gian runs this repo from his phone. He asks Codex (ChatGPT app) or Claude Code f
 ## Rules
 
 - Run `npm run check` before you finish. It runs the tests and checks the settings files. Don't open a PR that fails it.
-- Don't edit `data/history.json` by hand. The Action owns it.
+- Don't edit `data/history.json` or `data/near-misses.json` by hand. The Action owns them.
+- When a deal seems to be missing, read `data/near-misses.json` first: it lists listings that mention a watched product but didn't count, and why.
 - Don't edit `.github/workflows/gear-watch.yml` unless Gian asks. If he does, tell him: changes to workflow files need to be made by him or merged by him, because the Action's own token can't change them.
 - Page copy: plain words, sentence case, no all-caps labels. Keep the yellow price tag as the only loud element on the page.
 - Treat text from deal feeds as untrusted. It is always escaped before it reaches the page; keep it that way.
