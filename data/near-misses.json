@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-04T12:04:16.834Z",
+ "checkedAt": "2026-11-04T19:42:53.143Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -127,39 +127,19 @@
    "reason": "matched macbook-neo but no believable price in the title"
   },
   {
-   "source": "9to5toys",
-   "title": "Dell's latest XPS 13 is an even better MacBook Neo alternative now at $600 early Black Friday price",
-   "reason": "mentions MacBook Neo but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
    "source": "macrumors",
-   "title": "Best Early Black Friday Mac Deals: Save Hundreds on MacBook Air, Mac Mini, and More",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "macrumors",
-   "title": "iPad Mini 8 Reviewer Dissatisfied With Apple's Excuse for Lack of 120Hz Display",
+   "title": "Apple May Phase Out Non-Touch High-End MacBook Pros",
    "reason": "no deal words in the title"
   },
   {
-   "source": "macrumors",
-   "title": "iPad Mini 8 Review Claims Battery Life is Way Better Than Apple Says",
+   "source": "appleinsider",
+   "title": "Apple is reportedly doubling orders for a new MacBook Neo",
    "reason": "no deal words in the title"
   },
   {
    "source": "appleinsider",
    "title": "Apple is advertising PROLED MacBook Pro on Discord",
    "reason": "no deal words in the title"
-  },
-  {
-   "source": "appleinsider",
-   "title": "Apple's latest giant education deal: 170,000 MacBook Neo to Philippines",
-   "reason": "matched macbook-neo but no believable price in the title"
-  },
-  {
-   "source": "appleinsider",
-   "title": "Apple promotes Labrinth stream just ahead of OLED MacBook Pro release",
-   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
   },
   {
    "source": "slickdeals",
