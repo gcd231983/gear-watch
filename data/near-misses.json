@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05T00:53:47.336Z",
+ "checkedAt": "2026-11-05T09:26:39.445Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -46,15 +46,99 @@
   },
   {
    "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2799
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2719
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2379
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2289
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2119
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 2039
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1949
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1869
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1779
+  },
+  {
+   "source": "apple-refurb-mac",
    "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU, Nano-texture display - Space Black",
    "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
    "price": 1739
   },
   {
    "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1699
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1609
+  },
+  {
+   "source": "apple-refurb-mac",
    "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Silver",
    "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
    "price": 1609
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1529
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1439
+  },
+  {
+   "source": "apple-refurb-mac",
+   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, Gigabit Ethernet",
+   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
+   "price": 1359
   },
   {
    "source": "apple-refurb-ipad",
@@ -117,6 +201,11 @@
   {
    "source": "macrumors",
    "title": "Apple May Phase Out Non-Touch High-End MacBook Pros",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Labrinth promotes PROLED MacBook Pro with an all-night music-making stream",
    "reason": "no deal words in the title"
   },
   {
