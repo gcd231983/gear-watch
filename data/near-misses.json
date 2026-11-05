@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05T09:26:39.445Z",
+ "checkedAt": "2026-11-05T17:59:24.407Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -85,12 +85,6 @@
    "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
    "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
    "price": 1949
-  },
-  {
-   "source": "apple-refurb-mac",
-   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, Gigabit Ethernet",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
-   "price": 1869
   },
   {
    "source": "apple-refurb-mac",
@@ -190,17 +184,27 @@
   },
   {
    "source": "9to5toys",
-   "title": "Twelve South's adjustable metal Curve Mini stand is OLED iPad mini and iPhone Duo ready down at $40",
-   "reason": "no deal words in the title"
-  },
-  {
-   "source": "9to5toys",
-   "title": "Rare deal hits Apple's most affordable Silver MacBook Neo today (Best price in months)",
-   "reason": "matched macbook-neo but no believable price in the title"
+   "title": "Score a current iPad Air for less than the new iPad mini ($100 off)",
+   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
   },
   {
    "source": "macrumors",
-   "title": "Apple May Phase Out Non-Touch High-End MacBook Pros",
+   "title": "MacBook Pro PROLED XDR Reviews Are In: Is the Touchscreen Worth It?",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "macrumors",
+   "title": "See Apple's Touchscreen MacBook Pro in Action",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "macrumors",
+   "title": "MacBook Neo Shipments Expected to Double in 2027",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "appleinsider",
+   "title": "PROLED touchscreen MacBook Pro review roundup: fantastic screen, touch is secondary",
    "reason": "no deal words in the title"
   },
   {
@@ -217,6 +221,11 @@
    "source": "appleinsider",
    "title": "Apple is advertising PROLED MacBook Pro on Discord",
    "reason": "no deal words in the title"
+  },
+  {
+   "source": "slickdeals",
+   "title": "Open Box Unit: Apple MacBook Pro M5 Chip Laptop: 16.2\" Retina, 24GB RAM, 1TB SSD $2149 + Free S&H",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
   },
   {
    "source": "slickdeals",
@@ -266,11 +275,6 @@
   {
    "source": "slickdeals",
    "title": "Select Micro Center Stores: 14.2\" Apple MacBook Pro Laptop: M5 Max, 36GB, 2TB $3000 + Free Pickup",
-   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
-  },
-  {
-   "source": "slickdeals",
-   "title": "Apple 14\" MacBook Pro: M5 10-Core Chip, 24GB RAM, 1TB SSD $1899 + S&H",
    "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
   },
   {
