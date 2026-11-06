@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05T23:37:05.026Z",
+ "checkedAt": "2026-11-06T06:35:32.251Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -101,12 +101,6 @@
   {
    "source": "apple-refurb-mac",
    "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Silver",
-   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
-   "price": 1609
-  },
-  {
-   "source": "apple-refurb-mac",
-   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Space Black",
    "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
    "price": 1609
   },
