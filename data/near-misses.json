@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-06T06:35:32.251Z",
+ "checkedAt": "2026-11-06T15:54:38.150Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -88,12 +88,6 @@
   },
   {
    "source": "apple-refurb-mac",
-   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
-   "price": 1699
-  },
-  {
-   "source": "apple-refurb-mac",
    "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, Gigabit Ethernet",
    "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
    "price": 1609
@@ -171,9 +165,9 @@
    "price": 459
   },
   {
-   "source": "9to5toys",
-   "title": "Score a current iPad Air for less than the new iPad mini ($100 off)",
-   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
+   "source": "macrumors",
+   "title": "OLED iPad Mini, M6 iMac, and New MacBook Pros Available From Today",
+   "reason": "no deal words in the title"
   },
   {
    "source": "macrumors",
@@ -186,13 +180,18 @@
    "reason": "no deal words in the title"
   },
   {
-   "source": "macrumors",
-   "title": "See Apple's Touchscreen MacBook Pro in Action",
+   "source": "appleinsider",
+   "title": "How to dim or turn off the glowing Apple logo on the new MacBook Pro",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "appleinsider",
+   "title": "From Mac Portable to PROLED MacBook Pro: 35 years of mobile Macs",
    "reason": "no deal words in the title"
   },
   {
-   "source": "macrumors",
-   "title": "MacBook Neo Shipments Expected to Double in 2027",
+   "source": "appleinsider",
+   "title": "Apple's first deliveries offer a closer look at new iPad mini, MacBook Pros, and iMac",
    "reason": "no deal words in the title"
   },
   {
@@ -208,11 +207,6 @@
   {
    "source": "appleinsider",
    "title": "Apple is reportedly doubling orders for a new MacBook Neo",
-   "reason": "no deal words in the title"
-  },
-  {
-   "source": "appleinsider",
-   "title": "Apple is advertising PROLED MacBook Pro on Discord",
    "reason": "no deal words in the title"
   },
   {
