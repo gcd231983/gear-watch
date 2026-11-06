@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-06T15:54:38.150Z",
+ "checkedAt": "2026-11-06T21:28:40.397Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -72,12 +72,6 @@
    "source": "apple-refurb-mac",
    "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
    "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
-   "price": 2039
-  },
-  {
-   "source": "apple-refurb-mac",
-   "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
    "price": 1779
   },
   {
@@ -94,21 +88,9 @@
   },
   {
    "source": "apple-refurb-mac",
-   "title": "Refurbished 14-inch MacBook Pro Apple M5 chip with 10-Core CPU and 10-Core GPU - Silver",
-   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)",
-   "price": 1609
-  },
-  {
-   "source": "apple-refurb-mac",
    "title": "Refurbished Mac mini Apple M4 Pro Chip with 14-Core CPU and 20-Core GPU, Gigabit Ethernet",
    "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
    "price": 1529
-  },
-  {
-   "source": "apple-refurb-mac",
-   "title": "Refurbished Mac mini Apple M4 Pro Chip with 12-Core CPU and 16-Core GPU, 10Gb Ethernet",
-   "reason": "mentions Mac mini but no watched item matched (other model, accessory or excluded word)",
-   "price": 1439
   },
   {
    "source": "apple-refurb-mac",
@@ -165,6 +147,16 @@
    "price": 459
   },
   {
+   "source": "9to5toys",
+   "title": "Touchscreen PROLED MacBook Pro pre-order deals: FREE $150 gift card, more [Updated]",
+   "reason": "mentions MacBook Pro but no watched item matched (other model, accessory or excluded word)"
+  },
+  {
+   "source": "macrumors",
+   "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
+   "reason": "no deal words in the title"
+  },
+  {
    "source": "macrumors",
    "title": "OLED iPad Mini, M6 iMac, and New MacBook Pros Available From Today",
    "reason": "no deal words in the title"
@@ -175,8 +167,13 @@
    "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
   },
   {
-   "source": "macrumors",
-   "title": "MacBook Pro PROLED XDR Reviews Are In: Is the Touchscreen Worth It?",
+   "source": "appleinsider",
+   "title": "The jury's still out on who and what a touchscreen MacBook Pro is for",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "appleinsider",
+   "title": "Get a free $150 gift card with Apple's new PROLED MacBook Pro at B&H",
    "reason": "no deal words in the title"
   },
   {
