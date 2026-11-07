@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-06T21:28:40.397Z",
+ "checkedAt": "2026-11-07T01:53:43.391Z",
  "note": "Listings that mention a watched product but did not count, and why. Rewritten every run.",
  "misses": [
   {
@@ -153,6 +153,11 @@
   },
   {
    "source": "macrumors",
+   "title": "Hands-On With Apple's New OLED Touchscreen MacBook Pro",
+   "reason": "no deal words in the title"
+  },
+  {
+   "source": "macrumors",
    "title": "Control the Glowing Apple Logo on Your New MacBook Pro",
    "reason": "no deal words in the title"
   },
@@ -160,11 +165,6 @@
    "source": "macrumors",
    "title": "OLED iPad Mini, M6 iMac, and New MacBook Pros Available From Today",
    "reason": "no deal words in the title"
-  },
-  {
-   "source": "macrumors",
-   "title": "iPad Mini vs. iPad Air Buyer's Guide: Now Just $50 Apart",
-   "reason": "mentions iPad mini but no watched item matched (other model, accessory or excluded word)"
   },
   {
    "source": "appleinsider",
